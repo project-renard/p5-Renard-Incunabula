@@ -5,8 +5,6 @@ package Renard::Incunabula::Common::Error;
 use custom::failures qw/
 	Programmer::Logic
 	IO::FileNotFound
-	User::InvalidPageNumber
-	ViewOptions::InvalidGridOptions
 	/;
 
 1;
