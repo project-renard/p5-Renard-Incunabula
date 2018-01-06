@@ -1,3 +1,27 @@
+0.004 2018-01-06 00:31:17-0600
+
+  Features
+
+   - Add Types::URI to list of common types.
+
+     See <https://github.com/project-renard/p5-Renard-Incunabula/pull/3>.
+
+  Refactoring
+   - Removes all document-specific code and splits them off to the
+     Renard-Incunabula-Document and Renard-Incunabula-Format-Cairo
+     distributions.
+
+     See
+
+       - <https://github.com/project-renard/p5-Renard-Incunabula/issues/5>, 
+       - <https://github.com/project-renard/p5-Renard-Incunabula/pull/6>,
+       - <https://github.com/project-renard/p5-Renard-Incunabula-Document/pull/1>,
+       - <https://github.com/project-renard/p5-Renard-Incunabula-Format-Cairo/pull/1>,
+       - <https://github.com/project-renard/p5-Renard-Incunabula-MuPDF-mutool/pull/6>,
+       - <https://github.com/project-renard/p5-Renard-Incunabula-Format-PDF/pull/7>,
+       - <https://github.com/project-renard/p5-Renard-Incunabula-Frontend-Gtk3/pull/5>,
+       - <https://github.com/project-renard/curie/pull/223>.
+
 0.003 2017-07-11 23:16:58-0500
   - Split off from Renard-Curie-0.002.
 
