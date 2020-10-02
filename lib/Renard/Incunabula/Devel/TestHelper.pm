@@ -8,7 +8,7 @@ use Renard::Incunabula::Common::Types qw(Dir);
 
   Renard::Incunabula::Devel::TestHelper->test_data_directory
 
-Returns a L<Path::Class> object that points to the path defined by
+Returns a L<Path::Tiny> object that points to the path defined by
 the environment variable C<RENARD_TEST_DATA_PATH>.
 
 If the environment variable is not defined, throws an error.
